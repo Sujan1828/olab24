@@ -1,5 +1,7 @@
 
-// TODO: Complete this with record components
-public record TextBook() {
 
+public record TextBook() {
+    public String toString() {
+        return "TextBook{subject='" + this.subject + "'}";
+     }
 }
